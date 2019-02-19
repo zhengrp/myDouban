@@ -1,0 +1,43 @@
+*{
+    padding:0;
+}
+/* #inputWrap{
+    width:400px;
+    height:30px;
+    margin:100px auto;
+} */
+
+#inputWrap .inp{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+
+#inputWrap .inp .text{
+    display: inline-block;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border:1px solid #ddd;
+    padding-left:10px;
+}
+
+#inputWrap .inp .btn{
+    position: absolute;
+    right:0;
+    top:0px;
+    width:10%;
+    height:100%;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    transform: translateX(100%);
+}
+#inputWrap .inp .btn div{
+    width:100%;
+    height:100%;
+    color:#fff;
+    text-align: center;
+    font-size:14px;
+    background-color:#545652;
+}
